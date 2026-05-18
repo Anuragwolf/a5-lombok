@@ -52,7 +52,9 @@ header nav {
     padding: 1%;
     display: none;
 }
-
+header nav:nth-child(3) {
+    border: 1px solid gainsboro;
+}
 header i {
     color: white;
 }
@@ -227,7 +229,7 @@ footer nav {
 @media (min-width: 1280px) {
 
   header nav{
-    display: block;
+    display: flex;
   }
   header nav a{
      padding: 8px 20px;
@@ -235,7 +237,9 @@ footer nav {
     text-decoration: none;
     color: white;
   }
-  
+  header nav a:nth-child(3) {
+    border: 1px solid black;
+}
   header i {
     display: none;
   }
