@@ -230,9 +230,10 @@ footer nav {
 
   header nav{
     display: flex;
+    gap: 2rem;
   }
   header nav a{
-     padding: 8px 20px;
+     padding: 8px 8px;
     color: rgb(190, 186, 186);    
     text-decoration: none;
     color: white;
